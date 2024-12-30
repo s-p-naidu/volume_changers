@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Differenct volume changers</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style_roundrotate.css" />
+    <link rel="stylesheet" href="./style_wellrope2.css" />
+    <link rel="stylesheet" href="./style_jari.css" />
+  </head>
+  <body>
+    <h1 style="text-align: center;">Different Volume Changers</h1>
+    <p>choose audio file to play music:</p>
+    <div id="audiodiv">
+      
+      <input type="file" accept="audio/mp3" id="audio_file" />
+      <button onclick="play()">play</button>
+      <button onclick="pause()">pause</button>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+    <h1>Use the below volume changers to change volume(default volume is '50%' and '92%' is maximum)</h1>
+
+    <div id="pack">
+      <div id="onepack">
+        <div id="wellropefile">
+          <div id="roundwrwc">
+            <div id="roperoundindicator"></div>
+          </div>
+  
+          <div id="leftrope"></div>
+          <div id="rightrope"></div>
+          <div id="leftbox" class="ropeboxes"></div>
+          <div id="rightbox" class="ropeboxes"></div>
+        </div>
+      </div>
+      
+      <div id="remainingtwo">
+        <div id="round_rotate_mouse">
+          <div class="outer">
+            <h1 class="startbar"></h1>
+            <p class="stopbar"></p>
+            <div class="round">
+              <div class="regulator"></div>
+            </div>
+          </div>
+        </div>
+
+        <div id="balancing_volume_changer">
+          <div id="balance_frame">
+            <div id="balance_volume">
+              <div id="drag1" class="drags"></div>
+              <div id="volume_shell">
+                <div id="volume_indicator"></div>
+              </div>
+
+              <div id="drag2" class="drags"></div>
+            </div>
+            <div id="balance_stand"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

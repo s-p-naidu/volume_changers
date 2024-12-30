@@ -1,0 +1,59 @@
+#wellropefile{
+    position: relative;
+    border:1px solid;
+    height:600px;
+    width:280px;
+}
+
+#roundwrwc{
+    position:relative;
+    background:radial-gradient(red,rgba(0, 0, 0, 0.581));
+    transform:rotate(180deg);
+    height:200px;
+    width:200px;
+    top:10px;
+    left:30px;
+    border-radius:50%;
+    border:1px solid;
+    display:flex;
+    justify-content:center;
+}
+#roperoundindicator{
+    height:40px;
+    width:40px;
+    background-color: blueviolet;
+    border-radius:50%;
+}
+
+
+#leftrope{
+    position:absolute;
+    top:110px;
+    left:30px;
+    height:250px;
+    width:1px;
+    background-color: black;
+}
+#rightrope{
+    position:absolute;
+    top:110px;
+    left:231px;
+    height:250px;
+    width:1px;
+    background-color: black;
+}
+
+.ropeboxes{
+    position:absolute;
+    height:50px;
+    width:50px;
+    background: aquamarine;
+    top:360px;
+}
+
+#leftbox{
+    left:5px;
+}
+#rightbox{
+    left:205px;
+}

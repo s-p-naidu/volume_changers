@@ -1,0 +1,48 @@
+#balancing_volume_changer{
+    position: relative;
+}
+#balance_frame{
+    border:1px solid;
+    height:400px;
+    width:700px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
+#balance_volume{
+    height:30px;
+    width:400px;
+    border:1px solid;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    transform-origin: center;
+}
+
+#balance_stand{
+    width:0;
+    height:0;
+    border-left:50px solid transparent;
+    border-right:50px solid transparent;
+    border-bottom:100px solid rgb(180, 245, 50);
+}
+.drags{
+    height:40px;
+    width:40px;
+    background-color: aqua;
+    border-radius: 4px;
+}
+#volume_shell{
+    border:1px solid;
+    height:10px;
+    width:300px;
+}
+
+#volume_indicator{
+    height:100%;
+    width:50%;
+    background-color: green;
+}

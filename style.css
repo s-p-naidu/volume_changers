@@ -1,0 +1,32 @@
+
+#pack{
+    display:flex;
+    flex-direction: row;
+    column-gap: 30px;
+    justify-content: center;
+}
+
+#remainingtwo{
+    display:flex;
+    flex-direction: column;
+    row-gap:30px;
+}
+
+#audiodiv{
+    background-color: bisque;
+    height:80px;
+    width:400px;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+}
+
+#audiodiv button{
+    height:20px;
+    width:50px;
+    background: linear-gradient(red,rgba(0, 0, 255, 0.442));
+    color:white;
+    border-radius:2em;
+}
